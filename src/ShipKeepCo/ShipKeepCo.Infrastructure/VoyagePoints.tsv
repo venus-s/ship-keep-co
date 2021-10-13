@@ -1,0 +1,731 @@
+11/1/2021	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+11/2/2021	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+11/3/2021	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+11/4/2021	Cancun	Portland, ME		
+11/5/2021	Montego Bay		Casablanca, Morocco	Bergen, Norway
+11/6/2021	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+11/7/2021	Tuckers Town, Bermuda	New York City		
+11/8/2021		Wilmington, NC		Edinburgh, Scotland
+11/9/2021	Atlantic City	Miami	Ponta Delgada, Portugal	
+11/10/2021		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+11/11/2021	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+11/12/2021		Parrot Bay	Galway, Ireland	Southampton, UK
+11/13/2021	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+11/14/2021	Portland, ME		Bergen, Norway	Bilbao, Spain
+11/15/2021		Atlantic City	Bergen, Norway	
+11/16/2021	New York City			Casablanca, Morocco
+11/17/2021	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+11/18/2021	Wilmington, NC			
+11/19/2021	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+11/20/2021	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+11/21/2021	Montego Bay		Southampton, UK	Lisbon, Portugal
+11/22/2021	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+11/23/2021	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+11/24/2021		Wilmington, NC		
+11/25/2021	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+11/26/2021		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+11/27/2021	Halifax, NS	Montego Bay		
+11/28/2021		Parrot Bay		Edinburgh, Scotland
+11/29/2021	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+11/30/2021	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+12/1/2021		Atlantic City	Cobh, Ireland	Southampton, UK
+12/2/2021	New York City		Galway, Ireland	Southampton, UK
+12/3/2021	New York City	Halifax, NS		Cherbourg, France
+12/4/2021	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+12/5/2021	Miami	Bar Harbor, ME	Bergen, Norway	
+12/6/2021	Cancun	Portland, ME		Casablanca, Morocco
+12/7/2021	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+12/8/2021	Parrot Bay	New York City		
+12/9/2021	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+12/10/2021		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+12/11/2021	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+12/12/2021		Cancun	Cherbourg, France	Cobh, Ireland
+12/13/2021	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+12/14/2021		Parrot Bay		
+12/15/2021	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+12/16/2021	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+12/17/2021		Atlantic City		
+12/18/2021	New York City			Edinburgh, Scotland
+12/19/2021	New York City	Halifax, NS	Ponta Delgada, Portugal	
+12/20/2021	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+12/21/2021	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+12/22/2021	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+12/23/2021	Montego Bay			Cherbourg, France
+12/24/2021	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+12/25/2021	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+12/26/2021		Wilmington, NC		Casablanca, Morocco
+12/27/2021	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+12/28/2021		Cancun		
+12/29/2021	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+12/30/2021		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+12/31/2021	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+1/1/2022	Portland, ME		Cherbourg, France	Cobh, Ireland
+1/2/2022		Atlantic City	Bilbao, Spain	Galway, Ireland
+1/3/2022	New York City			
+1/4/2022	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+1/5/2022	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+1/6/2022	Miami	Bar Harbor, ME		
+1/7/2022	Cancun	Portland, ME		Edinburgh, Scotland
+1/8/2022	Montego Bay		Ponta Delgada, Portugal	
+1/9/2022	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+1/10/2022	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+1/11/2022		Wilmington, NC	Galway, Ireland	Southampton, UK
+1/12/2022	Atlantic City	Miami		Cherbourg, France
+1/13/2022		Cancun	Bergen, Norway	Bilbao, Spain
+1/14/2022	Halifax, NS	Montego Bay	Bergen, Norway	
+1/15/2022		Parrot Bay		Casablanca, Morocco
+1/16/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+1/17/2022	Portland, ME			
+1/18/2022		Atlantic City	Amsterdam, Netherlands	
+1/19/2022	New York City		Southampton, UK	Ponta Delgada, Portugal
+1/20/2022	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+1/21/2022	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+1/22/2022	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+1/23/2022	Cancun	Portland, ME		
+1/24/2022	Montego Bay		Casablanca, Morocco	Bergen, Norway
+1/25/2022	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+1/26/2022	Tuckers Town, Bermuda	New York City		
+1/27/2022		Wilmington, NC		Edinburgh, Scotland
+1/28/2022	Atlantic City	Miami	Ponta Delgada, Portugal	
+1/29/2022		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+1/30/2022	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+1/31/2022		Parrot Bay	Galway, Ireland	Southampton, UK
+2/1/2022	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+2/2/2022	Portland, ME		Bergen, Norway	Bilbao, Spain
+2/3/2022		Atlantic City	Bergen, Norway	
+2/4/2022	New York City			Casablanca, Morocco
+2/5/2022	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+2/6/2022	Wilmington, NC			
+2/7/2022	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+2/8/2022	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+2/9/2022	Montego Bay		Southampton, UK	Lisbon, Portugal
+2/10/2022	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+2/11/2022	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+2/12/2022		Wilmington, NC		
+2/13/2022	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+2/14/2022		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+2/15/2022	Halifax, NS	Montego Bay		
+2/16/2022		Parrot Bay		Edinburgh, Scotland
+2/17/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+2/18/2022	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+2/19/2022		Atlantic City	Cobh, Ireland	Southampton, UK
+2/20/2022	New York City		Galway, Ireland	Southampton, UK
+2/21/2022	New York City	Halifax, NS		Cherbourg, France
+2/22/2022	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+2/23/2022	Miami	Bar Harbor, ME	Bergen, Norway	
+2/24/2022	Cancun	Portland, ME		Casablanca, Morocco
+2/25/2022	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+2/26/2022	Parrot Bay	New York City		
+2/27/2022	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+2/28/2022		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+3/1/2022	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+3/2/2022		Cancun	Cherbourg, France	Cobh, Ireland
+3/3/2022	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+3/4/2022		Parrot Bay		
+3/5/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+3/6/2022	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+3/7/2022		Atlantic City		
+3/8/2022	New York City			Edinburgh, Scotland
+3/9/2022	New York City	Halifax, NS	Ponta Delgada, Portugal	
+3/10/2022	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+3/11/2022	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+3/12/2022	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+3/13/2022	Montego Bay			Cherbourg, France
+3/14/2022	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+3/15/2022	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+3/16/2022		Wilmington, NC		Casablanca, Morocco
+3/17/2022	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+3/18/2022		Cancun		
+3/19/2022	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+3/20/2022		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+3/21/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+3/22/2022	Portland, ME		Cherbourg, France	Cobh, Ireland
+3/23/2022		Atlantic City	Bilbao, Spain	Galway, Ireland
+3/24/2022	New York City			
+3/25/2022	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+3/26/2022	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+3/27/2022	Miami	Bar Harbor, ME		
+3/28/2022	Cancun	Portland, ME		Edinburgh, Scotland
+3/29/2022	Montego Bay		Ponta Delgada, Portugal	
+3/30/2022	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+3/31/2022	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+4/1/2022		Wilmington, NC	Galway, Ireland	Southampton, UK
+4/2/2022	Atlantic City	Miami		Cherbourg, France
+4/3/2022		Cancun	Bergen, Norway	Bilbao, Spain
+4/4/2022	Halifax, NS	Montego Bay	Bergen, Norway	
+4/5/2022		Parrot Bay		Casablanca, Morocco
+4/6/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+4/7/2022	Portland, ME			
+4/8/2022		Atlantic City	Amsterdam, Netherlands	
+4/9/2022	New York City		Southampton, UK	Ponta Delgada, Portugal
+4/10/2022	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+4/11/2022	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+4/12/2022	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+4/13/2022	Cancun	Portland, ME		
+4/14/2022	Montego Bay		Casablanca, Morocco	Bergen, Norway
+4/15/2022	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+4/16/2022	Tuckers Town, Bermuda	New York City		
+4/17/2022		Wilmington, NC		Edinburgh, Scotland
+4/18/2022	Atlantic City	Miami	Ponta Delgada, Portugal	
+4/19/2022		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+4/20/2022	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+4/21/2022		Parrot Bay	Galway, Ireland	Southampton, UK
+4/22/2022	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+4/23/2022	Portland, ME		Bergen, Norway	Bilbao, Spain
+4/24/2022		Atlantic City	Bergen, Norway	
+4/25/2022	New York City			Casablanca, Morocco
+4/26/2022	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+4/27/2022	Wilmington, NC			
+4/28/2022	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+4/29/2022	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+4/30/2022	Montego Bay		Southampton, UK	Lisbon, Portugal
+5/1/2022	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+5/2/2022	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+5/3/2022		Wilmington, NC		
+5/4/2022	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+5/5/2022		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+5/6/2022	Halifax, NS	Montego Bay		
+5/7/2022		Parrot Bay		Edinburgh, Scotland
+5/8/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+5/9/2022	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+5/10/2022		Atlantic City	Cobh, Ireland	Southampton, UK
+5/11/2022	New York City		Galway, Ireland	Southampton, UK
+5/12/2022	New York City	Halifax, NS		Cherbourg, France
+5/13/2022	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+5/14/2022	Miami	Bar Harbor, ME	Bergen, Norway	
+5/15/2022	Cancun	Portland, ME		Casablanca, Morocco
+5/16/2022	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+5/17/2022	Parrot Bay	New York City		
+5/18/2022	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+5/19/2022		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+5/20/2022	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+5/21/2022		Cancun	Cherbourg, France	Cobh, Ireland
+5/22/2022	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+5/23/2022		Parrot Bay		
+5/24/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+5/25/2022	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+5/26/2022		Atlantic City		
+5/27/2022	New York City			Edinburgh, Scotland
+5/28/2022	New York City	Halifax, NS	Ponta Delgada, Portugal	
+5/29/2022	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+5/30/2022	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+5/31/2022	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+6/1/2022	Montego Bay			Cherbourg, France
+6/2/2022	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+6/3/2022	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+6/4/2022		Wilmington, NC		Casablanca, Morocco
+6/5/2022	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+6/6/2022		Cancun		
+6/7/2022	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+6/8/2022		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+6/9/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+6/10/2022	Portland, ME		Cherbourg, France	Cobh, Ireland
+6/11/2022		Atlantic City	Bilbao, Spain	Galway, Ireland
+6/12/2022	New York City			
+6/13/2022	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+6/14/2022	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+6/15/2022	Miami	Bar Harbor, ME		
+6/16/2022	Cancun	Portland, ME		Edinburgh, Scotland
+6/17/2022	Montego Bay		Ponta Delgada, Portugal	
+6/18/2022	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+6/19/2022	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+6/20/2022		Wilmington, NC	Galway, Ireland	Southampton, UK
+6/21/2022	Atlantic City	Miami		Cherbourg, France
+6/22/2022		Cancun	Bergen, Norway	Bilbao, Spain
+6/23/2022	Halifax, NS	Montego Bay	Bergen, Norway	
+6/24/2022		Parrot Bay		Casablanca, Morocco
+6/25/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+6/26/2022	Portland, ME			
+6/27/2022		Atlantic City	Amsterdam, Netherlands	
+6/28/2022	New York City		Southampton, UK	Ponta Delgada, Portugal
+6/29/2022	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+6/30/2022	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+7/1/2022	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+7/2/2022	Cancun	Portland, ME		
+7/3/2022	Montego Bay		Casablanca, Morocco	Bergen, Norway
+7/4/2022	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+7/5/2022	Tuckers Town, Bermuda	New York City		
+7/6/2022		Wilmington, NC		Edinburgh, Scotland
+7/7/2022	Atlantic City	Miami	Ponta Delgada, Portugal	
+7/8/2022		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+7/9/2022	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+7/10/2022		Parrot Bay	Galway, Ireland	Southampton, UK
+7/11/2022	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+7/12/2022	Portland, ME		Bergen, Norway	Bilbao, Spain
+7/13/2022		Atlantic City	Bergen, Norway	
+7/14/2022	New York City			Casablanca, Morocco
+7/15/2022	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+7/16/2022	Wilmington, NC			
+7/17/2022	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+7/18/2022	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+7/19/2022	Montego Bay		Southampton, UK	Lisbon, Portugal
+7/20/2022	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+7/21/2022	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+7/22/2022		Wilmington, NC		
+7/23/2022	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+7/24/2022		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+7/25/2022	Halifax, NS	Montego Bay		
+7/26/2022		Parrot Bay		Edinburgh, Scotland
+7/27/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+7/28/2022	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+7/29/2022		Atlantic City	Cobh, Ireland	Southampton, UK
+7/30/2022	New York City		Galway, Ireland	Southampton, UK
+7/31/2022	New York City	Halifax, NS		Cherbourg, France
+8/1/2022	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+8/2/2022	Miami	Bar Harbor, ME	Bergen, Norway	
+8/3/2022	Cancun	Portland, ME		Casablanca, Morocco
+8/4/2022	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+8/5/2022	Parrot Bay	New York City		
+8/6/2022	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+8/7/2022		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+8/8/2022	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+8/9/2022		Cancun	Cherbourg, France	Cobh, Ireland
+8/10/2022	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+8/11/2022		Parrot Bay		
+8/12/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+8/13/2022	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+8/14/2022		Atlantic City		
+8/15/2022	New York City			Edinburgh, Scotland
+8/16/2022	New York City	Halifax, NS	Ponta Delgada, Portugal	
+8/17/2022	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+8/18/2022	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+8/19/2022	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+8/20/2022	Montego Bay			Cherbourg, France
+8/21/2022	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+8/22/2022	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+8/23/2022		Wilmington, NC		Casablanca, Morocco
+8/24/2022	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+8/25/2022		Cancun		
+8/26/2022	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+8/27/2022		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+8/28/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+8/29/2022	Portland, ME		Cherbourg, France	Cobh, Ireland
+8/30/2022		Atlantic City	Bilbao, Spain	Galway, Ireland
+8/31/2022	New York City			
+9/1/2022	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+9/2/2022	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+9/3/2022	Miami	Bar Harbor, ME		
+9/4/2022	Cancun	Portland, ME		Edinburgh, Scotland
+9/5/2022	Montego Bay		Ponta Delgada, Portugal	
+9/6/2022	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+9/7/2022	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+9/8/2022		Wilmington, NC	Galway, Ireland	Southampton, UK
+9/9/2022	Atlantic City	Miami		Cherbourg, France
+9/10/2022		Cancun	Bergen, Norway	Bilbao, Spain
+9/11/2022	Halifax, NS	Montego Bay	Bergen, Norway	
+9/12/2022		Parrot Bay		Casablanca, Morocco
+9/13/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+9/14/2022	Portland, ME			
+9/15/2022		Atlantic City	Amsterdam, Netherlands	
+9/16/2022	New York City		Southampton, UK	Ponta Delgada, Portugal
+9/17/2022	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+9/18/2022	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+9/19/2022	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+9/20/2022	Cancun	Portland, ME		
+9/21/2022	Montego Bay		Casablanca, Morocco	Bergen, Norway
+9/22/2022	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+9/23/2022	Tuckers Town, Bermuda	New York City		
+9/24/2022		Wilmington, NC		Edinburgh, Scotland
+9/25/2022	Atlantic City	Miami	Ponta Delgada, Portugal	
+9/26/2022		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+9/27/2022	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+9/28/2022		Parrot Bay	Galway, Ireland	Southampton, UK
+9/29/2022	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+9/30/2022	Portland, ME		Bergen, Norway	Bilbao, Spain
+10/1/2022		Atlantic City	Bergen, Norway	
+10/2/2022	New York City			Casablanca, Morocco
+10/3/2022	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+10/4/2022	Wilmington, NC			
+10/5/2022	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+10/6/2022	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+10/7/2022	Montego Bay		Southampton, UK	Lisbon, Portugal
+10/8/2022	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+10/9/2022	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+10/10/2022		Wilmington, NC		
+10/11/2022	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+10/12/2022		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+10/13/2022	Halifax, NS	Montego Bay		
+10/14/2022		Parrot Bay		Edinburgh, Scotland
+10/15/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+10/16/2022	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+10/17/2022		Atlantic City	Cobh, Ireland	Southampton, UK
+10/18/2022	New York City		Galway, Ireland	Southampton, UK
+10/19/2022	New York City	Halifax, NS		Cherbourg, France
+10/20/2022	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+10/21/2022	Miami	Bar Harbor, ME	Bergen, Norway	
+10/22/2022	Cancun	Portland, ME		Casablanca, Morocco
+10/23/2022	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+10/24/2022	Parrot Bay	New York City		
+10/25/2022	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+10/26/2022		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+10/27/2022	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+10/28/2022		Cancun	Cherbourg, France	Cobh, Ireland
+10/29/2022	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+10/30/2022		Parrot Bay		
+10/31/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+11/1/2022	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+11/2/2022		Atlantic City		
+11/3/2022	New York City			Edinburgh, Scotland
+11/4/2022	New York City	Halifax, NS	Ponta Delgada, Portugal	
+11/5/2022	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+11/6/2022	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+11/7/2022	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+11/8/2022	Montego Bay			Cherbourg, France
+11/9/2022	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+11/10/2022	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+11/11/2022		Wilmington, NC		Casablanca, Morocco
+11/12/2022	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+11/13/2022		Cancun		
+11/14/2022	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+11/15/2022		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+11/16/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+11/17/2022	Portland, ME		Cherbourg, France	Cobh, Ireland
+11/18/2022		Atlantic City	Bilbao, Spain	Galway, Ireland
+11/19/2022	New York City			
+11/20/2022	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+11/21/2022	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+11/22/2022	Miami	Bar Harbor, ME		
+11/23/2022	Cancun	Portland, ME		Edinburgh, Scotland
+11/24/2022	Montego Bay		Ponta Delgada, Portugal	
+11/25/2022	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+11/26/2022	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+11/27/2022		Wilmington, NC	Galway, Ireland	Southampton, UK
+11/28/2022	Atlantic City	Miami		Cherbourg, France
+11/29/2022		Cancun	Bergen, Norway	Bilbao, Spain
+11/30/2022	Halifax, NS	Montego Bay	Bergen, Norway	
+12/1/2022		Parrot Bay		Casablanca, Morocco
+12/2/2022	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+12/3/2022	Portland, ME			
+12/4/2022		Atlantic City	Amsterdam, Netherlands	
+12/5/2022	New York City		Southampton, UK	Ponta Delgada, Portugal
+12/6/2022	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+12/7/2022	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+12/8/2022	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+12/9/2022	Cancun	Portland, ME		
+12/10/2022	Montego Bay		Casablanca, Morocco	Bergen, Norway
+12/11/2022	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+12/12/2022	Tuckers Town, Bermuda	New York City		
+12/13/2022		Wilmington, NC		Edinburgh, Scotland
+12/14/2022	Atlantic City	Miami	Ponta Delgada, Portugal	
+12/15/2022		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+12/16/2022	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+12/17/2022		Parrot Bay	Galway, Ireland	Southampton, UK
+12/18/2022	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+12/19/2022	Portland, ME		Bergen, Norway	Bilbao, Spain
+12/20/2022		Atlantic City	Bergen, Norway	
+12/21/2022	New York City			Casablanca, Morocco
+12/22/2022	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+12/23/2022	Wilmington, NC			
+12/24/2022	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+12/25/2022	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+12/26/2022	Montego Bay		Southampton, UK	Lisbon, Portugal
+12/27/2022	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+12/28/2022	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+12/29/2022		Wilmington, NC		
+12/30/2022	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+12/31/2022		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+1/1/2023	Halifax, NS	Montego Bay		
+1/2/2023		Parrot Bay		Edinburgh, Scotland
+1/3/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+1/4/2023	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+1/5/2023		Atlantic City	Cobh, Ireland	Southampton, UK
+1/6/2023	New York City		Galway, Ireland	Southampton, UK
+1/7/2023	New York City	Halifax, NS		Cherbourg, France
+1/8/2023	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+1/9/2023	Miami	Bar Harbor, ME	Bergen, Norway	
+1/10/2023	Cancun	Portland, ME		Casablanca, Morocco
+1/11/2023	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+1/12/2023	Parrot Bay	New York City		
+1/13/2023	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+1/14/2023		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+1/15/2023	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+1/16/2023		Cancun	Cherbourg, France	Cobh, Ireland
+1/17/2023	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+1/18/2023		Parrot Bay		
+1/19/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+1/20/2023	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+1/21/2023		Atlantic City		
+1/22/2023	New York City			Edinburgh, Scotland
+1/23/2023	New York City	Halifax, NS	Ponta Delgada, Portugal	
+1/24/2023	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+1/25/2023	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+1/26/2023	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+1/27/2023	Montego Bay			Cherbourg, France
+1/28/2023	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+1/29/2023	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+1/30/2023		Wilmington, NC		Casablanca, Morocco
+1/31/2023	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+2/1/2023		Cancun		
+2/2/2023	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+2/3/2023		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+2/4/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+2/5/2023	Portland, ME		Cherbourg, France	Cobh, Ireland
+2/6/2023		Atlantic City	Bilbao, Spain	Galway, Ireland
+2/7/2023	New York City			
+2/8/2023	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+2/9/2023	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+2/10/2023	Miami	Bar Harbor, ME		
+2/11/2023	Cancun	Portland, ME		Edinburgh, Scotland
+2/12/2023	Montego Bay		Ponta Delgada, Portugal	
+2/13/2023	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+2/14/2023	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+2/15/2023		Wilmington, NC	Galway, Ireland	Southampton, UK
+2/16/2023	Atlantic City	Miami		Cherbourg, France
+2/17/2023		Cancun	Bergen, Norway	Bilbao, Spain
+2/18/2023	Halifax, NS	Montego Bay	Bergen, Norway	
+2/19/2023		Parrot Bay		Casablanca, Morocco
+2/20/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+2/21/2023	Portland, ME			
+2/22/2023		Atlantic City	Amsterdam, Netherlands	
+2/23/2023	New York City		Southampton, UK	Ponta Delgada, Portugal
+2/24/2023	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+2/25/2023	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+2/26/2023	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+2/27/2023	Cancun	Portland, ME		
+2/28/2023	Montego Bay		Casablanca, Morocco	Bergen, Norway
+3/1/2023	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+3/2/2023	Tuckers Town, Bermuda	New York City		
+3/3/2023		Wilmington, NC		Edinburgh, Scotland
+3/4/2023	Atlantic City	Miami	Ponta Delgada, Portugal	
+3/5/2023		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+3/6/2023	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+3/7/2023		Parrot Bay	Galway, Ireland	Southampton, UK
+3/8/2023	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+3/9/2023	Portland, ME		Bergen, Norway	Bilbao, Spain
+3/10/2023		Atlantic City	Bergen, Norway	
+3/11/2023	New York City			Casablanca, Morocco
+3/12/2023	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+3/13/2023	Wilmington, NC			
+3/14/2023	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+3/15/2023	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+3/16/2023	Montego Bay		Southampton, UK	Lisbon, Portugal
+3/17/2023	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+3/18/2023	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+3/19/2023		Wilmington, NC		
+3/20/2023	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+3/21/2023		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+3/22/2023	Halifax, NS	Montego Bay		
+3/23/2023		Parrot Bay		Edinburgh, Scotland
+3/24/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+3/25/2023	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+3/26/2023		Atlantic City	Cobh, Ireland	Southampton, UK
+3/27/2023	New York City		Galway, Ireland	Southampton, UK
+3/28/2023	New York City	Halifax, NS		Cherbourg, France
+3/29/2023	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+3/30/2023	Miami	Bar Harbor, ME	Bergen, Norway	
+3/31/2023	Cancun	Portland, ME		Casablanca, Morocco
+4/1/2023	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+4/2/2023	Parrot Bay	New York City		
+4/3/2023	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+4/4/2023		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+4/5/2023	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+4/6/2023		Cancun	Cherbourg, France	Cobh, Ireland
+4/7/2023	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+4/8/2023		Parrot Bay		
+4/9/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+4/10/2023	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+4/11/2023		Atlantic City		
+4/12/2023	New York City			Edinburgh, Scotland
+4/13/2023	New York City	Halifax, NS	Ponta Delgada, Portugal	
+4/14/2023	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+4/15/2023	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+4/16/2023	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+4/17/2023	Montego Bay			Cherbourg, France
+4/18/2023	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+4/19/2023	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+4/20/2023		Wilmington, NC		Casablanca, Morocco
+4/21/2023	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+4/22/2023		Cancun		
+4/23/2023	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+4/24/2023		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+4/25/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+4/26/2023	Portland, ME		Cherbourg, France	Cobh, Ireland
+4/27/2023		Atlantic City	Bilbao, Spain	Galway, Ireland
+4/28/2023	New York City			
+4/29/2023	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+4/30/2023	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+5/1/2023	Miami	Bar Harbor, ME		
+5/2/2023	Cancun	Portland, ME		Edinburgh, Scotland
+5/3/2023	Montego Bay		Ponta Delgada, Portugal	
+5/4/2023	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+5/5/2023	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+5/6/2023		Wilmington, NC	Galway, Ireland	Southampton, UK
+5/7/2023	Atlantic City	Miami		Cherbourg, France
+5/8/2023		Cancun	Bergen, Norway	Bilbao, Spain
+5/9/2023	Halifax, NS	Montego Bay	Bergen, Norway	
+5/10/2023		Parrot Bay		Casablanca, Morocco
+5/11/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+5/12/2023	Portland, ME			
+5/13/2023		Atlantic City	Amsterdam, Netherlands	
+5/14/2023	New York City		Southampton, UK	Ponta Delgada, Portugal
+5/15/2023	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+5/16/2023	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+5/17/2023	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+5/18/2023	Cancun	Portland, ME		
+5/19/2023	Montego Bay		Casablanca, Morocco	Bergen, Norway
+5/20/2023	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+5/21/2023	Tuckers Town, Bermuda	New York City		
+5/22/2023		Wilmington, NC		Edinburgh, Scotland
+5/23/2023	Atlantic City	Miami	Ponta Delgada, Portugal	
+5/24/2023		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+5/25/2023	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+5/26/2023		Parrot Bay	Galway, Ireland	Southampton, UK
+5/27/2023	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+5/28/2023	Portland, ME		Bergen, Norway	Bilbao, Spain
+5/29/2023		Atlantic City	Bergen, Norway	
+5/30/2023	New York City			Casablanca, Morocco
+5/31/2023	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+6/1/2023	Wilmington, NC			
+6/2/2023	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+6/3/2023	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+6/4/2023	Montego Bay		Southampton, UK	Lisbon, Portugal
+6/5/2023	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+6/6/2023	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+6/7/2023		Wilmington, NC		
+6/8/2023	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+6/9/2023		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+6/10/2023	Halifax, NS	Montego Bay		
+6/11/2023		Parrot Bay		Edinburgh, Scotland
+6/12/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+6/13/2023	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+6/14/2023		Atlantic City	Cobh, Ireland	Southampton, UK
+6/15/2023	New York City		Galway, Ireland	Southampton, UK
+6/16/2023	New York City	Halifax, NS		Cherbourg, France
+6/17/2023	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+6/18/2023	Miami	Bar Harbor, ME	Bergen, Norway	
+6/19/2023	Cancun	Portland, ME		Casablanca, Morocco
+6/20/2023	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+6/21/2023	Parrot Bay	New York City		
+6/22/2023	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+6/23/2023		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+6/24/2023	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+6/25/2023		Cancun	Cherbourg, France	Cobh, Ireland
+6/26/2023	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+6/27/2023		Parrot Bay		
+6/28/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+6/29/2023	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+6/30/2023		Atlantic City		
+7/1/2023	New York City			Edinburgh, Scotland
+7/2/2023	New York City	Halifax, NS	Ponta Delgada, Portugal	
+7/3/2023	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+7/4/2023	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+7/5/2023	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+7/6/2023	Montego Bay			Cherbourg, France
+7/7/2023	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+7/8/2023	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+7/9/2023		Wilmington, NC		Casablanca, Morocco
+7/10/2023	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+7/11/2023		Cancun		
+7/12/2023	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+7/13/2023		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+7/14/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+7/15/2023	Portland, ME		Cherbourg, France	Cobh, Ireland
+7/16/2023		Atlantic City	Bilbao, Spain	Galway, Ireland
+7/17/2023	New York City			
+7/18/2023	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+7/19/2023	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+7/20/2023	Miami	Bar Harbor, ME		
+7/21/2023	Cancun	Portland, ME		Edinburgh, Scotland
+7/22/2023	Montego Bay		Ponta Delgada, Portugal	
+7/23/2023	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+7/24/2023	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+7/25/2023		Wilmington, NC	Galway, Ireland	Southampton, UK
+7/26/2023	Atlantic City	Miami		Cherbourg, France
+7/27/2023		Cancun	Bergen, Norway	Bilbao, Spain
+7/28/2023	Halifax, NS	Montego Bay	Bergen, Norway	
+7/29/2023		Parrot Bay		Casablanca, Morocco
+7/30/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+7/31/2023	Portland, ME			
+8/1/2023		Atlantic City	Amsterdam, Netherlands	
+8/2/2023	New York City		Southampton, UK	Ponta Delgada, Portugal
+8/3/2023	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+8/4/2023	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+8/5/2023	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+8/6/2023	Cancun	Portland, ME		
+8/7/2023	Montego Bay		Casablanca, Morocco	Bergen, Norway
+8/8/2023	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+8/9/2023	Tuckers Town, Bermuda	New York City		
+8/10/2023		Wilmington, NC		Edinburgh, Scotland
+8/11/2023	Atlantic City	Miami	Ponta Delgada, Portugal	
+8/12/2023		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+8/13/2023	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
+8/14/2023		Parrot Bay	Galway, Ireland	Southampton, UK
+8/15/2023	Bar Harbor, ME	Tuckers Town, Bermuda		Cherbourg, France
+8/16/2023	Portland, ME		Bergen, Norway	Bilbao, Spain
+8/17/2023		Atlantic City	Bergen, Norway	
+8/18/2023	New York City			Casablanca, Morocco
+8/19/2023	New York City	Halifax, NS	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+8/20/2023	Wilmington, NC			
+8/21/2023	Miami	Bar Harbor, ME	Amsterdam, Netherlands	
+8/22/2023	Cancun	Portland, ME	Southampton, UK	Ponta Delgada, Portugal
+8/23/2023	Montego Bay		Southampton, UK	Lisbon, Portugal
+8/24/2023	Parrot Bay	New York City	Cherbourg, France	Cobh, Ireland
+8/25/2023	Tuckers Town, Bermuda	New York City	Bilbao, Spain	Galway, Ireland
+8/26/2023		Wilmington, NC		
+8/27/2023	Atlantic City	Miami	Casablanca, Morocco	Bergen, Norway
+8/28/2023		Cancun	Santa Cruz de Tenerife, Spain	Bergen, Norway
+8/29/2023	Halifax, NS	Montego Bay		
+8/30/2023		Parrot Bay		Edinburgh, Scotland
+8/31/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Ponta Delgada, Portugal	
+9/1/2023	Portland, ME		Lisbon, Portugal	Amsterdam, Netherlands
+9/2/2023		Atlantic City	Cobh, Ireland	Southampton, UK
+9/3/2023	New York City		Galway, Ireland	Southampton, UK
+9/4/2023	New York City	Halifax, NS		Cherbourg, France
+9/5/2023	Wilmington, NC		Bergen, Norway	Bilbao, Spain
+9/6/2023	Miami	Bar Harbor, ME	Bergen, Norway	
+9/7/2023	Cancun	Portland, ME		Casablanca, Morocco
+9/8/2023	Montego Bay		Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+9/9/2023	Parrot Bay	New York City		
+9/10/2023	Tuckers Town, Bermuda	New York City	Amsterdam, Netherlands	
+9/11/2023		Wilmington, NC	Southampton, UK	Ponta Delgada, Portugal
+9/12/2023	Atlantic City	Miami	Southampton, UK	Lisbon, Portugal
+9/13/2023		Cancun	Cherbourg, France	Cobh, Ireland
+9/14/2023	Halifax, NS	Montego Bay	Bilbao, Spain	Galway, Ireland
+9/15/2023		Parrot Bay		
+9/16/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Casablanca, Morocco	Bergen, Norway
+9/17/2023	Portland, ME		Santa Cruz de Tenerife, Spain	Bergen, Norway
+9/18/2023		Atlantic City		
+9/19/2023	New York City			Edinburgh, Scotland
+9/20/2023	New York City	Halifax, NS	Ponta Delgada, Portugal	
+9/21/2023	Wilmington, NC		Lisbon, Portugal	Amsterdam, Netherlands
+9/22/2023	Miami	Bar Harbor, ME	Cobh, Ireland	Southampton, UK
+9/23/2023	Cancun	Portland, ME	Galway, Ireland	Southampton, UK
+9/24/2023	Montego Bay			Cherbourg, France
+9/25/2023	Parrot Bay	New York City	Bergen, Norway	Bilbao, Spain
+9/26/2023	Tuckers Town, Bermuda	New York City	Bergen, Norway	
+9/27/2023		Wilmington, NC		Casablanca, Morocco
+9/28/2023	Atlantic City	Miami	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+9/29/2023		Cancun		
+9/30/2023	Halifax, NS	Montego Bay	Amsterdam, Netherlands	
+10/1/2023		Parrot Bay	Southampton, UK	Ponta Delgada, Portugal
+10/2/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Southampton, UK	Lisbon, Portugal
+10/3/2023	Portland, ME		Cherbourg, France	Cobh, Ireland
+10/4/2023		Atlantic City	Bilbao, Spain	Galway, Ireland
+10/5/2023	New York City			
+10/6/2023	New York City	Halifax, NS	Casablanca, Morocco	Bergen, Norway
+10/7/2023	Wilmington, NC		Santa Cruz de Tenerife, Spain	Bergen, Norway
+10/8/2023	Miami	Bar Harbor, ME		
+10/9/2023	Cancun	Portland, ME		Edinburgh, Scotland
+10/10/2023	Montego Bay		Ponta Delgada, Portugal	
+10/11/2023	Parrot Bay	New York City	Lisbon, Portugal	Amsterdam, Netherlands
+10/12/2023	Tuckers Town, Bermuda	New York City	Cobh, Ireland	Southampton, UK
+10/13/2023		Wilmington, NC	Galway, Ireland	Southampton, UK
+10/14/2023	Atlantic City	Miami		Cherbourg, France
+10/15/2023		Cancun	Bergen, Norway	Bilbao, Spain
+10/16/2023	Halifax, NS	Montego Bay	Bergen, Norway	
+10/17/2023		Parrot Bay		Casablanca, Morocco
+10/18/2023	Bar Harbor, ME	Tuckers Town, Bermuda	Edinburgh, Scotland	Santa Cruz de Tenerife, Spain
+10/19/2023	Portland, ME			
+10/20/2023		Atlantic City	Amsterdam, Netherlands	
+10/21/2023	New York City		Southampton, UK	Ponta Delgada, Portugal
+10/22/2023	New York City	Halifax, NS	Southampton, UK	Lisbon, Portugal
+10/23/2023	Wilmington, NC		Cherbourg, France	Cobh, Ireland
+10/24/2023	Miami	Bar Harbor, ME	Bilbao, Spain	Galway, Ireland
+10/25/2023	Cancun	Portland, ME		
+10/26/2023	Montego Bay		Casablanca, Morocco	Bergen, Norway
+10/27/2023	Parrot Bay	New York City	Santa Cruz de Tenerife, Spain	Bergen, Norway
+10/28/2023	Tuckers Town, Bermuda	New York City		
+10/29/2023		Wilmington, NC		Edinburgh, Scotland
+10/30/2023	Atlantic City	Miami	Ponta Delgada, Portugal	
+10/31/2023		Cancun	Lisbon, Portugal	Amsterdam, Netherlands
+11/1/2023	Halifax, NS	Montego Bay	Cobh, Ireland	Southampton, UK
