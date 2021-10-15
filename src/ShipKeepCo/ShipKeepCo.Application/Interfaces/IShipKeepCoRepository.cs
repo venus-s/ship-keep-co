@@ -15,10 +15,10 @@ namespace ShipKeepCo.Application.Interfaces
         Task<BookingModel> CreateBookingAsync(Booking booking);
 
         /// <summary>
-        /// Gets the available departure dates.
+        /// Gets the available departure voyage points.
         /// </summary>
-        /// <returns>The available departure dates.</returns>
-        Task<List<DateTime>> GetAvailableDepartureDates();
+        /// <returns>The available departure voyage points.</returns>
+        Task<List<VoyagePointModel>> GetDepartureVoyagePoints();
 
         /// <summary>
         /// Gets the voyage points for all of the voyages on a specific date.
@@ -42,5 +42,11 @@ namespace ShipKeepCo.Application.Interfaces
         /// <param name="arrivalVoyagePointId">The arrival voyage point id.</param>
         /// <returns>Whether the departure is before the arrival.</returns>
         Task<bool> IsDepartureBeforeArrival(int departureVoyagePointId, int arrivalVoyagePointId);
+
+        /// <summary>
+        /// Gets the current price per night.
+        /// </summary>
+        /// <returns>The price per night.</returns>
+        Task<PricePerNightModel> GetPricePerNightAsync();
     }
 }

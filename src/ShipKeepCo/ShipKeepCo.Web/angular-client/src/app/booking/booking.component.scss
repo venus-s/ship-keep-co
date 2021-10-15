@@ -1,0 +1,12 @@
+.loading-overlay {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+
+  animation: spinner 1500ms infinite linear;
+}
+
+.ui-button {
+  display: block;
+  margin: auto;
+}

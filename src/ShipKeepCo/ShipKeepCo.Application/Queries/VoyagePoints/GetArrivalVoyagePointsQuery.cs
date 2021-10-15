@@ -7,14 +7,14 @@ namespace ShipKeepCo.Application.Queries.VoyagePoints
 {
     public class GetArrivalVoyagePointsQuery : IRequest<List<VoyagePointModel>>
     {
-        public DateTime DepartureDate { get; }
-
         public int VoyageId { get; }
 
-        public GetArrivalVoyagePointsQuery(DateTime departureDate, int voyageId)
+        public DateTime DepartureDate { get; }
+
+        public GetArrivalVoyagePointsQuery(int voyageId, DateTime departureDate)
         {
-            DepartureDate = departureDate;
             VoyageId = voyageId;
+            DepartureDate = departureDate;
         }
     }
 }

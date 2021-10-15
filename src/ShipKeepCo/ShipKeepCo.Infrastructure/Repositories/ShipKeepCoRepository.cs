@@ -57,24 +57,32 @@ namespace ShipKeepCo.Infrastructure.Repositories
             };
         }
 
-        public async Task<List<DateTime>> GetAvailableDepartureDates()
+        public async Task<List<VoyagePointModel>> GetDepartureVoyagePoints()
         {
             return await _context.VoyagePoints
-                .Select(vp => vp.Date)
-                .Distinct()
-                .OrderBy(d => d)
+                .Where(vp => vp.Date > DateTime.Today)
+                .Select(vp => new VoyagePointModel()
+                {
+                    VoyagePointId = vp.VoyagePointId,
+                    Date = vp.Date,
+                    VoyageId = vp.VoyageId,
+                    LocationId = vp.Location.LocationId,
+                    Location = vp.Location.Name
+                })
+                .OrderBy(vp => vp.Date)
                 .ToListAsync();
         }
 
         public async Task<List<VoyagePointModel>> GetVoyagePointsAsync(DateTime dateTime)
         {
             return await _context.VoyagePoints
-                .Where(vp => vp.Date == dateTime)
+                .Where(vp => vp.Date.Date == dateTime.Date)
                 .Select(vp => new VoyagePointModel()
                 {
                     VoyagePointId = vp.VoyagePointId,
-                    VoyageId = vp.VoyageId,
                     Date = vp.Date,
+                    VoyageId = vp.VoyageId,
+                    LocationId = vp.Location.LocationId,
                     Location = vp.Location.Name
                 })
                 .ToListAsync();
@@ -83,12 +91,13 @@ namespace ShipKeepCo.Infrastructure.Repositories
         public async Task<List<VoyagePointModel>> GetArrivalVoyagePointsAsync(DateTime departureDate, int voyageId)
         {
             return await _context.VoyagePoints
-                .Where(vp => vp.Date > departureDate && vp.VoyageId == voyageId)
+                .Where(vp => vp.Date.Date > departureDate.Date && vp.VoyageId == voyageId)
                 .Select(vp => new VoyagePointModel()
                 {
                     VoyagePointId = vp.VoyagePointId,
-                    VoyageId = vp.VoyageId,
                     Date = vp.Date,
+                    VoyageId = vp.VoyageId,
+                    LocationId = vp.Location.LocationId,
                     Location = vp.Location.Name
                 })
                 .OrderBy(vp => vp.Date)
@@ -104,6 +113,17 @@ namespace ShipKeepCo.Infrastructure.Repositories
                 .FirstOrDefaultAsync(vp => vp.VoyagePointId == arrivalVoyagePointId);
 
             return departureVoyagePoint.Date < arrivalVoyagePoint.Date;
+        }
+
+        public async Task<PricePerNightModel> GetPricePerNightAsync()
+        {
+            return await _context.PricePerNights
+                .OrderByDescending(p => p.Created)
+                .Select(p => new PricePerNightModel()
+                {
+                    Price = p.Price
+                })
+                .FirstOrDefaultAsync();
         }
     }
 }

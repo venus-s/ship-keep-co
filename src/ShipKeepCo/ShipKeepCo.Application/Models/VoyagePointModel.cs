@@ -6,10 +6,12 @@ namespace ShipKeepCo.Application.Models
     {
         public int VoyagePointId { get; set; }
 
+        public DateTime Date { get; set; }
+
         public int VoyageId { get; set; }
 
-        public string Location { get; set; }
+        public int LocationId { get; set; }
 
-        public DateTime Date { get; set; }
+        public string Location { get; set; }
     }
 }
