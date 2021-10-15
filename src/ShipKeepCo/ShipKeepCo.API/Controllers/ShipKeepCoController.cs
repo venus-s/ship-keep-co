@@ -2,8 +2,8 @@
 using ShipKeepCo.API.Models;
 using ShipKeepCo.Application.Commands.Bookings;
 using ShipKeepCo.Application.Models;
-using ShipKeepCo.Application.Queries.VoyagePoints;
-using System;
+using ShipKeepCo.Application.Queries.Bookings;
+using ShipKeepCo.Application.Queries.Voyages;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -22,6 +22,12 @@ namespace ShipKeepCo.API.Controllers
                 booking.ArrivalVoyagePointId));
         }
 
+        [HttpGet("Booking/{hashId}")]
+        public async Task<ActionResult<BookingModel>> GetBooking(string hashId)
+        {
+            return await Mediator.Send(new GetBookingQuery(hashId));
+        }
+
         [HttpGet("Booking/Price")]
         public async Task<ActionResult<PricePerNightModel>> GetPricePerNight()
         {
@@ -31,19 +37,7 @@ namespace ShipKeepCo.API.Controllers
         [HttpGet("Voyage")]
         public async Task<ActionResult<List<VoyagePointModel>>> GetVoyagePoints()
         {
-            return await Mediator.Send(new GetDepartureVoyagePointsQuery());
-        }
-
-        [HttpGet("Voyage/{date}")]
-        public async Task<ActionResult<List<VoyagePointModel>>> GetVoyagePoints(DateTime date)
-        {
-            return await Mediator.Send(new GetVoyagePointsQuery(date));
-        }
-
-        [HttpGet("Voyage/{voyageId:int}/Arrival/{departureDate}")]
-        public async Task<ActionResult<List<VoyagePointModel>>> GetArrivalVoyagePoints(int voyageId, DateTime departureDate)
-        {
-            return await Mediator.Send(new GetArrivalVoyagePointsQuery(voyageId, departureDate));
+            return await Mediator.Send(new GetVoyagePointsQuery());
         }
     }
 }

@@ -1,1 +1,40 @@
-<p>booking-confirmation works!</p>
+<div *ngIf="loading" class="loading-overlay">
+  <span><i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i></span>
+</div>
+
+<p-panel *ngIf="!loading && confirmedBooking" header="Booking Confirmation">
+  <div class="grid">
+    <div class="col-6 lg:col">
+      <h4>First Name</h4>
+      <span>{{ confirmedBooking.customerFirstName }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Last Name</h4>
+      <span>{{ confirmedBooking.customerLastName }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Departure Location</h4>
+      <span>{{ confirmedBooking.departureLocation }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Departure Date</h4>
+      <span>{{ confirmedBooking.departureDate | date: 'MM/dd/yyyy' }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Arrival Location</h4>
+      <span>{{ confirmedBooking.arrivalLocation }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Arrival Date</h4>
+      <span>{{ confirmedBooking.arrivalDate | date: 'MM/dd/yyyy' }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Trip Cost</h4>
+      <span>{{ confirmedBooking.totalPrice | currency:'USD' }}</span>
+    </div>
+    <div class="col-6 lg:col">
+      <h4>Confirmation Number</h4>
+      <span>{{ confirmedBooking.confirmationNumber }}</span>
+    </div>
+  </div>
+</p-panel>

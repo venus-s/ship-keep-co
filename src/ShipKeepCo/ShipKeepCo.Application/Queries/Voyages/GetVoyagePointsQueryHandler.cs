@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ShipKeepCo.Application.Queries.VoyagePoints
+namespace ShipKeepCo.Application.Queries.Voyages
 {
     public class GetVoyagePointsQueryHandler : IRequestHandler<GetVoyagePointsQuery, List<VoyagePointModel>>
     {
         private readonly IShipKeepCoRepository _shipKeepCoRepository;
-
+        
         public GetVoyagePointsQueryHandler(IShipKeepCoRepository shipKeepCoRepository)
         {
             _shipKeepCoRepository = shipKeepCoRepository;
@@ -18,7 +18,7 @@ namespace ShipKeepCo.Application.Queries.VoyagePoints
 
         public async Task<List<VoyagePointModel>> Handle(GetVoyagePointsQuery request, CancellationToken cancellationToken)
         {
-            return await _shipKeepCoRepository.GetVoyagePointsAsync(request.Date);
+            return await _shipKeepCoRepository.GetVoyagePointsAsync();
         }
     }
 }

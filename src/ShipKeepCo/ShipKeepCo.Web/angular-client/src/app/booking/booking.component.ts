@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms";
+import { Router } from '@angular/router';
 import { PrimeNGConfig } from 'primeng/api';
 import { forkJoin as observableForkJoin, Observable } from 'rxjs';
 
@@ -34,13 +35,12 @@ export class BookingComponent implements OnInit {
   public disabledDepartureDates: Date[] = [];
   public disabledArrivalDates: Date[] = [];
 
-  public confirmedBooking: BookingModel | undefined;
-
   constructor(
     private bookingService: BookingService,
     private voyageService: VoyageService,
     private primengConfig: PrimeNGConfig,
-    private formBuilder: FormBuilder) {
+    private formBuilder: FormBuilder,
+    private router: Router) {
       this.primengConfig.ripple = true;
 
       this.form = this.formBuilder.group({
@@ -77,7 +77,7 @@ export class BookingComponent implements OnInit {
     this.loading = true;
 
     
-    let observables: Observable<any>[] = [this.voyageService.getDepartureVoyagePoints(), this.bookingService.getPricePerNight()];
+    let observables: Observable<any>[] = [this.voyageService.getVoyagePoints(), this.bookingService.getPricePerNight()];
     observableForkJoin(observables).subscribe(
       (data: any[]) => {
         this.voyagePoints = data[0];
@@ -187,7 +187,7 @@ export class BookingComponent implements OnInit {
   
       this.loading = true;
       this.bookingService.createBooking(createBooking).subscribe((b) => {
-        this.confirmedBooking = b;
+        this.router.navigate([`booking/${b.confirmationNumber}`]);
         this.loading = false;
       });
     }

@@ -4,7 +4,7 @@ using ShipKeepCo.Application.Models;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ShipKeepCo.Application.Queries.VoyagePoints
+namespace ShipKeepCo.Application.Queries.Bookings
 {
     public class GetPricePerNightQueryHandler : IRequestHandler<GetPricePerNightQuery, PricePerNightModel>
     {

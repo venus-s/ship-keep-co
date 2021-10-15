@@ -29,4 +29,8 @@ export class BookingService {
   public createBooking(booking: CreateBookingModel): Observable<BookingModel> {
     return this.http.post<BookingModel>(this.bookingsUrl, booking, this.httpOptions);
   }
+
+  public getBooking(hashId: string | null): Observable<BookingModel> {
+    return this.http.get<BookingModel>(`${this.bookingsUrl}/${hashId}`);
+  }
 }

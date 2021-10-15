@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookingComponent } from './booking/booking.component';
-import { BookingConfirmationComponent } from './booking-confirmation/booking-confirmation.component';
 
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
@@ -16,6 +15,8 @@ import { ListboxModule } from 'primeng/listbox';
 import { PanelModule } from 'primeng/panel';
 import { TableModule } from 'primeng/table';
 import { FieldsetModule } from 'primeng/fieldset';
+import { CardModule, } from 'primeng/card';
+import { BookingConfirmationComponent } from './booking-confirmation/booking-confirmation.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { FieldsetModule } from 'primeng/fieldset';
     ListboxModule,
     PanelModule,
     TableModule,
+    CardModule,
     FieldsetModule
   ],
   providers: [],

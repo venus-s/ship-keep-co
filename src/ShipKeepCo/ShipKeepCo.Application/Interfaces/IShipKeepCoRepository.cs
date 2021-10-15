@@ -15,25 +15,23 @@ namespace ShipKeepCo.Application.Interfaces
         Task<BookingModel> CreateBookingAsync(Booking booking);
 
         /// <summary>
-        /// Gets the available departure voyage points.
+        /// Gets the booking.
+        /// </summary>
+        /// <param name="hashId">The hash of the booking id.</param>
+        /// <returns>The booking.</returns>
+        Task<BookingModel> GetBookingAsync(string hashId);
+
+        /// <summary>
+        /// Gets the current price per night.
+        /// </summary>
+        /// <returns>The price per night.</returns>
+        Task<PricePerNightModel> GetPricePerNightAsync();
+
+        /// <summary>
+        /// Gets the voyage points.
         /// </summary>
         /// <returns>The available departure voyage points.</returns>
-        Task<List<VoyagePointModel>> GetDepartureVoyagePoints();
-
-        /// <summary>
-        /// Gets the voyage points for all of the voyages on a specific date.
-        /// </summary>
-        /// <param name="dateTime">The date of the voyage point.</param>
-        /// <returns>The possible voyage points.</returns>
-        Task<List<VoyagePointModel>> GetVoyagePointsAsync(DateTime dateTime);
-
-        /// <summary>
-        /// Gets the possible arrival voyage points given a departure date and a voyage id.
-        /// </summary>
-        /// <param name="departureDate">The departure date.</param>
-        /// <param name="voyageId">The id of the voyage.</param>
-        /// <returns>The possible arrival voyage points.</returns>
-        Task<List<VoyagePointModel>> GetArrivalVoyagePointsAsync(DateTime departureDate, int voyageId);
+        Task<List<VoyagePointModel>> GetVoyagePointsAsync();
 
         /// <summary>
         /// Determines if the departure is before the arrival.
@@ -41,12 +39,6 @@ namespace ShipKeepCo.Application.Interfaces
         /// <param name="departureVoyagePointId">The departure voyage point id.</param>
         /// <param name="arrivalVoyagePointId">The arrival voyage point id.</param>
         /// <returns>Whether the departure is before the arrival.</returns>
-        Task<bool> IsDepartureBeforeArrival(int departureVoyagePointId, int arrivalVoyagePointId);
-
-        /// <summary>
-        /// Gets the current price per night.
-        /// </summary>
-        /// <returns>The price per night.</returns>
-        Task<PricePerNightModel> GetPricePerNightAsync();
+        Task<bool> IsValidVoyageAsync(int departureVoyagePointId, int arrivalVoyagePointId);
     }
 }

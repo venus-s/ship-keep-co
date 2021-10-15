@@ -16,7 +16,7 @@ export class VoyageService {
   
   constructor(private http: HttpClient) { }
 
-  public getDepartureVoyagePoints(): Observable<VoyagePointModel[]> {
+  public getVoyagePoints(): Observable<VoyagePointModel[]> {
     return this.http.get<VoyagePointModel[]>(this.voyageUrl).pipe(
       map((points) =>
         points.map((point) => {
@@ -24,17 +24,5 @@ export class VoyageService {
           return point;
         }))
     );
-  }
-
-  public getVoyagePoints(departureDate: Date): Observable<VoyagePointModel[]> {
-    let formattedDepartureDate = formatDate(departureDate, 'yyyy-MM-dd', 'en-US');
-
-    return this.http.get<VoyagePointModel[]>(`${this.voyageUrl}/${formattedDepartureDate}`)
-  }
-
-  public getArrivalVoyagePoints(voyageId: number, departureDate: Date): Observable<VoyagePointModel[]> {
-    let formattedDepartureDate = formatDate(departureDate, 'yyyy-MM-dd', 'en-US');
-
-    return this.http.get<VoyagePointModel[]>(`${this.voyageUrl}/${voyageId}/Arrival/${formattedDepartureDate}`);
   }
 }

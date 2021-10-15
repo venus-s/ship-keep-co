@@ -2,138 +2,102 @@
   <span *ngIf="submitted">Booking now...</span>
   <span><i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i></span>
 </div>
-<div *ngIf="!loading && !confirmedBooking">
-  <h3>Luxury Cruises</h3>
-  <h4>Book your getaway now!</h4>
-  <form [formGroup]="form" novalidate role="form" autocomplete='off'>
-    <div class="formgrid grid">
-      <div class="field col-12 md:col-6">
-        <label for="first-name">First Name</label>
-        <input
-          id="first-name"
+<div *ngIf="!loading">
+  <p-card>
+    <h3>Luxury Cruises</h3>
+    <h4>Book your getaway now!</h4>
+    <form [formGroup]="form" novalidate role="form" autocomplete='off'>
+      <div class="formgrid grid">
+        <div class="field col-12 md:col-6">
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            type="text"
+            class="inputfield w-full ng-invalid ng-dirty"
+            [ngClass]="{'ng-dirty':form.controls.customerFirstName.invalid && (!form.controls.customerFirstName.pristine || submitted)}"
+            formControlName="customerFirstName"
+            pInputText
+            placeholder="John">
+        </div>
+        <div class="field col-12 md:col-6">
+          <label for="last-name">Last Name</label>
+          <input id="last-name"
           type="text"
           class="inputfield w-full ng-invalid ng-dirty"
-          [ngClass]="{'ng-dirty':form.controls.customerFirstName.invalid && (!form.controls.customerFirstName.pristine || submitted)}"
-          formControlName="customerFirstName"
+          formControlName="customerLastName"
+          [ngClass]="{'ng-dirty':form.controls.customerLastName.invalid && (!form.controls.customerLastName.pristine || submitted)}"
           pInputText
-          placeholder="John">
-      </div>
-      <div class="field col-12 md:col-6">
-        <label for="last-name">Last Name</label>
-        <input id="last-name"
-        type="text"
-        class="inputfield w-full ng-invalid ng-dirty"
-        formControlName="customerLastName"
-        [ngClass]="{'ng-dirty':form.controls.customerLastName.invalid && (!form.controls.customerLastName.pristine || submitted)}"
-        pInputText
-        placeholder="Doe">
-      </div>
-      <div class="field col-12">
-        <label for="departure-date">Departure Date</label>
-        <div>
-          <p-calendar
-            inputId="departure-date"
-            formControlName="departureDate"
-            [ngClass]="{'ng-dirty':form.controls.departureDate.invalid && (!form.controls.departureDate.pristine || submitted)}"
-            [readonlyInput]="true"
-            [touchUI]="true" 
-            [defaultDate]="minDepartureDate"
-            [disabledDates]="disabledDepartureDates"
-            (onMonthChange)="handleDepartureMonthChange($event)"
+          placeholder="Doe">
+        </div>
+        <div class="field col-12">
+          <label for="departure-date">Departure Date</label>
+          <div>
+            <p-calendar
+              inputId="departure-date"
+              formControlName="departureDate"
+              [ngClass]="{'ng-dirty':form.controls.departureDate.invalid && (!form.controls.departureDate.pristine || submitted)}"
+              [readonlyInput]="true"
+              [touchUI]="true" 
+              [defaultDate]="minDepartureDate"
+              [disabledDates]="disabledDepartureDates"
+              (onMonthChange)="handleDepartureMonthChange($event)"
+            >
+            </p-calendar>
+          </div>
+        </div>
+        <div *ngIf="this.form.controls.departureDate.value" class="field col-12">
+          <label for="departure-voyage-point">Departure Point</label>
+          <p-listbox
+            inputId="departure-voyage-point"
+            [options]="departureVoyagePoints"
+            formControlName="departureVoyagePoint"
+            [ngClass]="{'ng-dirty':form.controls.departureVoyagePoint.invalid && (!form.controls.departureVoyagePoint.pristine || submitted)}"
+            optionLabel="location"
           >
-          </p-calendar>
+          </p-listbox>
+        </div>
+        <div *ngIf="this.form.controls.departureVoyagePoint.value" class="field col-12">
+          <label for="arrival-date">Arrival Date</label>
+          <div>
+            <p-calendar
+              inputId="arrival-date"
+              formControlName="arrivalDate"
+              [ngClass]="{'ng-dirty':form.controls.arrivalDate.invalid && (!form.controls.arrivalDate.pristine || submitted)}"
+              [readonlyInput]="true"
+              [touchUI]="true" 
+              [defaultDate]="minArrivalDate"
+              [disabledDates]="disabledArrivalDates"
+              (onMonthChange)="handleArrivalMonthChange($event)"
+            >
+              <!-- <ng-template pTemplate="date" let-date>
+                <span>{{date.day}}</span>
+                <div *ngFor="let location of getLocationNames(date)">
+                  
+                </div>
+              </ng-template> -->
+            </p-calendar>
+          </div>
+        </div>
+        <div *ngIf="this.form.controls.arrivalDate.value" class="field col-12">
+          <label for="arrival-voyage-point">Arrival Point</label>
+          <p-listbox
+            inputId="arrival-voyage-point"
+            [options]="selectedArrivalVoyagePoint"
+            optionLabel="location"
+            [disabled]="true"
+          >
+          </p-listbox>
+        </div>
+        <div *ngIf="this.form.controls.arrivalDate.value" class="field col-12">
+          <p-fieldset legend="Total Price">
+            {{ pricePerNight | currency:'USD' }} x {{ getTotalNights() }} nights = <b>{{ pricePerNight * getTotalNights() | currency:'USD'}}</b>
+          </p-fieldset>
+        </div>
+        <div class="col-12">
+          <p-button label="Start Over" styleClass="p-button-secondary ui-button" icon="pi pi-replay" (onClick)="resetForm()"></p-button>
+          <p-button label="Book" styleClass="ui-button" icon="pi pi-check" (onClick)="createBooking()"></p-button>
         </div>
       </div>
-      <div *ngIf="this.form.controls.departureDate.value" class="field col-12">
-        <label for="departure-voyage-point">Departure Point</label>
-        <p-listbox
-          inputId="departure-voyage-point"
-          [options]="departureVoyagePoints"
-          formControlName="departureVoyagePoint"
-          [ngClass]="{'ng-dirty':form.controls.departureVoyagePoint.invalid && (!form.controls.departureVoyagePoint.pristine || submitted)}"
-          optionLabel="location"
-        >
-        </p-listbox>
-      </div>
-      <div *ngIf="this.form.controls.departureVoyagePoint.value" class="field col-12">
-        <label for="arrival-date">Arrival Date</label>
-        <div>
-          <p-calendar
-            inputId="arrival-date"
-            formControlName="arrivalDate"
-            [ngClass]="{'ng-dirty':form.controls.arrivalDate.invalid && (!form.controls.arrivalDate.pristine || submitted)}"
-            [readonlyInput]="true"
-            [touchUI]="true" 
-            [defaultDate]="minArrivalDate"
-            [disabledDates]="disabledArrivalDates"
-            (onMonthChange)="handleArrivalMonthChange($event)"
-          >
-            <!-- <ng-template pTemplate="date" let-date>
-              <span>{{date.day}}</span>
-              <div *ngFor="let location of getLocationNames(date)">
-                
-              </div>
-            </ng-template> -->
-          </p-calendar>
-        </div>
-      </div>
-      <div *ngIf="this.form.controls.arrivalDate.value" class="field col-12">
-        <label for="arrival-voyage-point">Arrival Point</label>
-        <p-listbox
-          inputId="arrival-voyage-point"
-          [options]="selectedArrivalVoyagePoint"
-          optionLabel="location"
-          [disabled]="true"
-        >
-        </p-listbox>
-      </div>
-      <div *ngIf="this.form.controls.arrivalDate.value" class="field col-12">
-        <p-fieldset legend="Total Price">
-          {{ pricePerNight | currency:'USD' }} x {{ getTotalNights() }} nights = <b>{{ pricePerNight * getTotalNights() | currency:'USD'}}</b>
-        </p-fieldset>
-      </div>
-      <div class="col-12">
-        <p-button label="Reset" styleClass="p-button-secondary ui-button" (onClick)="resetForm()"></p-button>
-        <p-button label="Submit" styleClass="ui-button" (onClick)="createBooking()"></p-button>
-      </div>
-    </div>
-  </form>
-</div>
-<div *ngIf="!loading && confirmedBooking">
-  <p-panel header="Booking Confirmation">
-    <div class="grid">
-      <div class="col-6 lg:col">
-        <h4>First Name</h4>
-        <span>{{ confirmedBooking.customerFirstName }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Last Name</h4>
-        <span>{{ confirmedBooking.customerLastName }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Departure Location</h4>
-        <span>{{ confirmedBooking.departureLocation }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Departure Date</h4>
-        <span>{{ confirmedBooking.departureDate | date: 'MM/dd/yyyy' }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Arrival Location</h4>
-        <span>{{ confirmedBooking.arrivalLocation }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Arrival Date</h4>
-        <span>{{ confirmedBooking.arrivalDate | date: 'MM/dd/yyyy' }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Trip Cost</h4>
-        <span>{{ confirmedBooking.totalPrice | currency:'USD' }}</span>
-      </div>
-      <div class="col-6 lg:col">
-        <h4>Confirmation Number</h4>
-        <span>{{ confirmedBooking.confirmationNumber }}</span>
-      </div>
-    </div>
-  </p-panel>
+    </form>
+  </p-card>
 </div>
